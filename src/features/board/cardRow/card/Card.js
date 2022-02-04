@@ -4,7 +4,7 @@ import {useSelector} from 'react-redux';
 import {selectVisibleIDs, flipCard, selectMatchedIDs} from '../../boardSlice.js';
 import {useDispatch} from 'react-redux';
 
-let cardLogo = "https://static-assets.codecademy.com/Courses/Learn-Redux/matching-game/codecademy_logo.png";
+let cardLogo = "/computer.png";
 
 export const Card = ({ id, contents }) => {
   // Add selected data and dispatch variables below
